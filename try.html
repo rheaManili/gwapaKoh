@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    
+    <title>Sign Up Validation</title>
+     
+    <link rel="stylesheet" href="try.css">
+    <script defer src="try.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+                 <h1>
+	  <img src="logo.png" width="170px" height="60px" /> <br /> </h1>
+	  
+            <div class="input-control">
+                <label for="Email">What's your Email?</label>
+                <input id="email" name="email" type="text" placeholder="Enter your email.">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email2">Confirm your email.</label>
+                <input id="email2" name="email2" type="text" placeholder="Enter your email again.">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Create a Password.</label>
+                <input id="password"name="password" type="password" placeholder="Create a password.">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="username">What should we call you?</label>
+                <input id="username"name="username" type="username" placeholder="Enter a profile name.">
+                 <label for="username">This appers on your profile</label>
+                <div class="error"></div>
+            </div>
+            
+                        <div class="Birthdate">
+                <label for="Birthdate">What is your date of birth?</label>
+                <br>
+
+   <table class="birthdate">
+         <tr>
+            <td>Day</td>
+            <td>Month</td>
+            <td>Year</td>
+            </tr>
+            <tr>
+            <td>	   
+            <input type="number" id="day" name="day" class="day" placeholder="DD" />
+<div class="error"></div>
+            </td>
+ 
+           <td> 
+      <select id="month" name="month" class="month">
+	    <option value="month">Month</option>
+	    <option value="January">January</option>
+	    <option value="February">February</option>
+	    <option value="March">March</option>
+	    <option value="April">April</option>
+	    <option value="May">May</option>
+      <option value="June">June</option>
+      <option value="July">July</option>	
+      <option value="August">August</option>
+	   <option value="September">September</option>
+      <option value="October">October</option>
+      <option value="November">November</option>
+	   <option value="Decembers">December</option>
+	    </select>
+<div class="error"></div>
+          </td>
+           <td>
+           <input type="number" id="year" name="year" class="year" placeholder="YYYY" />
+<div class="error"></div>
+              </td>
+              </tr>
+              </table>
+              </div>
+              
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
